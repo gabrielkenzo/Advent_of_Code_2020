@@ -12,4 +12,6 @@ if __name__ == '__main__':
     lines = []
     for line in file:
         lines.append(int(line))
+    file.close()
+    
     print(find_complement(lines, 2020))

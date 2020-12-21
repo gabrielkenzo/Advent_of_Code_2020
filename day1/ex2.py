@@ -7,6 +7,7 @@ if __name__ == '__main__':
     lines = []
     for line in file:
         lines.append(int(line))
+    file.close()
     
     for number in lines:
         ret = find_complement(lines, 2020 - number)
